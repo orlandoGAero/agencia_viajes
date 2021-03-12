@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+
+                blockquote Cras ultrices dolor vitae consectetur condimentum. Curabitur sit amet porttitor massa, a aliquam est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse ultricies sagittis velit, vel consectetur urna convallis at. Aenean tempor lorem quis convallis accumsan. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin eleifend ligula in elit volutpat luctus. Etiam molestie pellentesque tellus, id dapibus lorem congue ut. 
+
+                p Morbi suscipit nulla nec lectus pharetra aliquet. Pellentesque dictum condimentum ex. Integer sit amet mauris lectus. Nulla facilisi. Aliquam id risus elit. Etiam posuere vehicula metus suscipit semper. Nulla congue risus sed dui tincidunt, nec dapibus sapien semper. Aenean bibendum nulla a imperdiet ultricies.
+
+                p Maecenas laoreet faucibus aliquet. Maecenas egestas, tortor sit amet commodo posuere, felis erat hendrerit sapien, id posuere augue felis et odio. Integer et convallis ante, ac volutpat ligula. Aliquam ut lectus mauris. Curabitur in purus suscipit, scelerisque sapien eget, blandit augue. Praesent pulvinar erat quis feugiat elementum.
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Curabitur in purus suscipit, scelerisque sapien eget, blandit augue. Praesent pulvinar erat quis feugiat elementum.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Curabitur in purus suscipit, scelerisque sapien eget, blandit augue. Praesent pulvinar erat quis feugiat elementum.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Curabitur in purus suscipit, scelerisque sapien eget, blandit augue. Praesent pulvinar erat quis feugiat elementum.
